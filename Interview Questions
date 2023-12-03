@@ -9,13 +9,16 @@ Q.2 Deployment Model in Cloud ?
 4.	Community Cloud
 
 1.	Public Cloud – 
-      As the name, Public cloud is available for all public & resources shared between all users. Public cloud is available to anyone from anywhere via internet.  This computing model is available at the data center which is controlled by Vendors. Example are likes AWS, Azure, GCP
+      As the name, Public cloud is available for all public & resources shared between all users. Public cloud is available to anyone from anywhere via internet.  This computing model is available at the data 
+      center which is controlled by Vendors. Example are likes AWS, Azure, GCP
 2.	Private Cloud
       Private Cloud is used in particular organization, in which customization is available for single user. It is also known as ‘Internal Cloud’
 3.	Hybrid Cloud
      	Hybrid cloud made by two & more deployment models that’s work together to provide user with greater flexibility. The combination of private, public, & community resource provides customers with more option for accessing their data than with just one model alone.
 4.	Community Cloud
-      It allows systems and services to be accessible by a group of organizations. It is a distributed system that is created by integrating the services of different clouds to address the specific needs of a community, industry, or business. The infrastructure of the community could be shared between the organization which has shared concerns or tasks. It is generally managed by a third party or by the combination of one or more organizations in the community.
+      It allows systems and services to be accessible by a group of organizations. It is a distributed system that is created by integrating the services of different clouds to address the specific needs of a 
+      community, industry, or business. The infrastructure of the community could be shared between the organization which has shared concerns or tasks. It is generally managed by a third party or by the 
+      combination of one or more organizations in the community.
    
 Q.3 Service Model in Cloud ?
 Answer : There is 3 types of Service models in Cloud.
@@ -31,9 +34,6 @@ Answer : There is 3 types of Service models in Cloud.
 Q.4 Architecture of Cloud Computing ?
 Answer : Cloud Computing is the one of the demanding technology of current time. Which is providing Virtualized services as per demand. Starting from small to medium and medium to large, every organization use cloud computing services for storing information and accessing it from anywhere and any time only with the help of internet.
 Architecture having 2 parts –
-1.	Frontend
-2.	Backend
-
 1.	 Frontend -
         As you see in the diagram, frontend of the cloud architecture refers to the client side of cloud computing system. Means it contains all the user interfaces and applications which are used by the 
         client to access the cloud computing services.
@@ -64,97 +64,82 @@ Answer : There are various types of services available in AWS & in that services
 
 
 IAM – Identity & Access Management -
-Q. 1 How many resources do we have in Identity and Access Management (IAM)?
+Q.1 How many resources do we have in Identity and Access Management (IAM)?
 Answer: The number of resources in Identity and Access Management (IAM) like User, Users groups, Roles , Access Policies,authentication methods, MFA. 
 
-Q. 2 Deployment model in Identity and Access Management (IAM)?
+Q.2 Deployment model in Identity and Access Management (IAM)?
 Answer: 1. On-Premises 
         2. Cloud-Based 
         3. Hybrid
 
-Q. 3 Identities in Identity and Access Management (IAM)?
-Answer: In IAM, identities are the people or entities who are given permission to use an organization's resources. These can be employees, contractors, partners, customers, or anyone who needs access.
-Identities are usually represented by user accounts or profiles in the IAM system. Each identity has certain characteristics like a username, password, email address, and roles or permissions that determine what they can do and what they can access.
+Q.3 Identities in Identity and Access Management (IAM)?
+Answer: Identities are the people or entities who are given permission to use an organization's resources. These can be employees, contractors, partners, customers, or anyone who needs access.
+        Identities are usually represented by user accounts or profiles in the IAM system. Each identity has certain characteristics like a username, password, email address, and roles or permissions that 
+        determine what they can do and what they can access.
 
-Q. 4 What is an Identity and Access Management (IAM) User?
-Answer: A user is someone who interacts with a computer system or network. In IAM, an IAM user is an entity that represents a person or service that interacts with a system or network using login credentials such as a username and password. IAM users are created and managed within an IAM system.
+Q.4 What is an Identity and Access Management (IAM) User?
+Answer: A user is someone who interacts with a computer system or network. In IAM, an IAM user is an entity that represents a person or service that interacts with a system or network using login credentials 
+        such as a username and password. IAM users are created and managed within an IAM system.
 
-Q. 5 What is the Identity and Access Management (IAM) Group?
-Answer: In IAM, a group is a bunch of people who have similar attributes like roles, permissions, or access levels. Groups are used to make it easier to control and manage access to resources in an organization's IAM system. By putting people into groups, administrators can easily control who can access certain things based on their job, department, or other factors. For example, a company might create a group for all the employees in the finance department, giving them specific permissions to use financial data and systems.
+Q.5 What is the Identity and Access Management (IAM) Group?
+Answer: In IAM, a group is a bunch of people who have similar attributes like roles, permissions, or access levels. Groups are used to make it easier to control and manage access to resources in an 
+        organization's IAM system. By putting people into groups, administrators can easily control who can access certain things based on their job, department, or other factors. For example, a company might 
+        create a group for all the employees in the finance department, giving them specific permissions to use financial data and systems.
 
-Q. 6 What is the Identity and Access Management (IAM) Policy?
-Answer: In IAM, a policy is a set of rules that say what someone can do and what they can access in an organization's systems.
-IAM policies control and manage who can access resources based on their needs and roles. These rules can be set at different levels, like for individual users, groups, or specific resources. They say what actions or permissions are allowed or not allowed for each person or group.
+Q.6 What is the Identity and Access Management (IAM) Policy?
+Answer: Policy is a set of rules that say what someone can do and what they can access in an organization's systems.
+        IAM policies control and manage who can access resources based on their needs and roles. These rules can be set at different levels, like for individual users, groups, or specific resources. They say 
+        what actions or permissions are allowed or not allowed for each person or group.
 
-Q. 7 What is the Identity and Access Management (IAM) Role?
-Answer: In IAM, a role is like a set of permissions that say what someone can do and what they can access in an organization's systems.
-IAM roles are used to give specific privileges and access levels to people based on their jobs or responsibilities. These roles can be customized to fit the organization's needs.
-When someone assumes a role, they automatically get the permissions that come with that role. This means they can do the things and access the resources defined in the role, without needing individual permissions. IAM roles can be assigned to individual users, groups, or even to services.
+Q.7 What is the Identity and Access Management (IAM) Role?
+Answer: Role is like a set of permissions that say what someone can do and what they can access in an organization's systems.
+        IAM roles are used to give specific privileges and access levels to people based on their jobs or responsibilities. These roles can be customized to fit the organization's needs.
+        When someone assumes a role, they automatically get the permissions that come with that role. This means they can do the things and access the resources defined in the role, without needing individual 
+        permissions. IAM roles can be assigned to individual users, groups, or even to services.
 
-Q. 8 Where do we attach Identity Based Policy?
-Answer: Identity-based policies are connected to individual users or groups in an Identity and Access Management (IAM) system. These policies determine the specific permissions and access rights given to the user or group.
-When creating or managing a user or group in an IAM system, there is usually an option to attach an identity-based policy. This can be done through the IAM console, command-line interface (CLI), or programmatically using an API.
-Once attached, the identity-based policy controls what actions the user or group can do and what resources they can access in the organization's systems or apps. The policy can be customized to fit the user or group's specific needs and roles. 
-By attaching identity-based policies, organizations have fine-grained control over access. This ensures that each user or group has the right permissions to perform their tasks while maintaining security and following regulations.
-Q. 9 Where do we attach Resource Based Policy?
-Answer: Resource-based policies are directly linked to the resources themselves in an Identity and Access Management (IAM) system. These policies determine the permissions and access rights granted to entities trying to access the resource.
-When creating or managing a resource in an IAM system, there is typically an option to attach a resource-based policy. This can be done through the IAM console, command-line interface (CLI), or programmatically using an API.
-Once attached, the resource-based policy controls which actions can be performed on the resource and by whom. It specifies the permissions and access conditions for entities like users, groups, or roles.
-By attaching resource-based policies, organizations have precise control over resource access. They can specify who can do specific actions on the resource, such as reading, writing, or deleting. This helps organizations enforce security measures and comply with regulations.
-Q. 10 Can we be able to create Policy via JSON code?
+Q.8 Where do we attach Identity Based Policy?
+Answer: Identity-based policies are connected to individual users or groups in an Identity and Access Management (IAM) system. These policies determine the specific permissions and access rights given to the 
+        user or group.
+
+Q.9 Where do we attach Resource Based Policy?
+Answer: Resource-based policies are directly linked to the resources themselves in an Identity and Access Management (IAM) system. These policies determine the permissions and access rights granted to entities 
+        trying to access the resource.
+
+Q.10 Can we be able to create Policy via JSON code?
 Answer: Yes, it is possible to create policies using JSON code. JSON (JavaScript Object Notation) is a commonly used format for representing structured data, including policy configurations.
-In an Identity and Access Management (IAM) system, you can create policies programmatically by constructing a JSON document that defines the desired permissions and access rights. This JSON document can then be passed to the IAM system through an API or other means of policy management.
-The JSON code for a policy typically includes information such as the resources being accessed, the actions allowed or denied, and the entities (users, groups, or roles) to which the policy applies. It can also include conditions or restrictions on when the policy should be enforced.
-By creating policies via JSON code, organizations can automate the policy creation process and easily manage large numbers of policies. This provides flexibility and scalability in managing access control within the IAM system.
-Q. 11 If one user has created it by default, which permission has been assigned to that user?
-Answer: When a user creates a policy by default, the permissions given to that user depend on what was specified in the policy.
-When creating the policy, the user decides which permissions and access rights are granted to entities trying to access the resource. If the policy was created with the user's own permissions in mind, they might have given themselves specific permissions to access the resource.
-However, it's important to remember that the user's ability to create policies is determined by the organization's IAM system. The IAM system assigns the user a certain level of access and permissions to create policies based on their role and responsibilities in the organization.
-It's generally a good idea for organizations to regularly review and check the policies created by users. This ensures that the policies align with the organization's security and compliance requirements. By doing this, organizations can prevent users from having excessive permissions or accessing resources they shouldn't have access to.
+        In an Identity and Access Management (IAM) system, you can create policies programmatically by constructing a JSON document that defines the desired permissions and access rights. 
+
+Q.11 If one user has created it by default, which permission has been assigned to that user?
+Answer: 
+
+
 Q. 12 What is dominator policy?
 Answer: If user having less permissions but user adding in group & if group having full permission to that group (full access) in that case user having full access permission. That kind of policy called as Dominator policy
 
 Q. 13 What is ARN? What are the fields in ARN?
 Answer: ARN stands for Amazon Resource Name. It is a unique identifier assigned to resources in the Amazon Web Services (AWS) ecosystem.
-The fields in an ARN are as follows:
-1.	arn:aws - This is a fixed string indicating that the identifier is an ARN associated with AWS.
-2.	service - This field specifies the AWS service to which the resource belongs (e.g., s3 for S3 buckets, ec2 for EC2 instances).
-3.	region - It represents the AWS region where the resource is located (e.g., us-east-1 for the US East region).
-4.	account-id - This field contains the AWS account ID associated with the resource.
-5.	resource - It specifies the specific resource identifier within the service (e.g., bucket name for S3, instance ID for EC2).
-6.	qualifier - This field is optional and is used for resources that have different versions or aliases.
-An example of an ARN for an S3 bucket in the US East region with account ID 123456789012 would be: arn:aws:s3:us-east-1:123456789012:bucket-nam
+        The fields in an ARN are as follows:
+        1.	arn:aws - This is a fixed string indicating that the identifier is an ARN associated with AWS.
+        2.	service - This field specifies the AWS service to which the resource belongs (e.g., s3 for S3 buckets, ec2 for EC2 instances).
+        3.	region - It represents the AWS region where the resource is located (e.g., us-east-1 for the US East region).
+        4.	account-id - This field contains the AWS account ID associated with the resource.
+        5.	resource - It specifies the specific resource identifier within the service (e.g., bucket name for S3, instance ID for EC2).
+        6.	qualifier - This field is optional and is used for resources that have different versions or aliases.
+        An example of an ARN for an S3 bucket in the US East region with account ID 123456789012 would be: arn:aws:s3:us-east-1:123456789012:bucket-nam
 
 Q. 14 How many types of ARN Partition?
-Answer: ARN stands for Amazon Resource Name, which is used in AWS (Amazon Web Services) to identify resources uniquely. The ARN format helps in specifying a resource unambiguously across all of AWS, which aids in permission policies and user activities.
-An ARN is structured as:
-python
-arn:partition:service:region:account-id:resource-id
-In this structure, "partition" is one of the components, and AWS currently has three main ARN partitions:
-aws: The standard partition for general AWS regions.
-aws-cn: The partition for China regions.
-aws-us-gov: The partition for AWS GovCloud (US) regions.
-These partitions help differentiate resources that reside in different geographic or regulatory boundaries.
+Answer: ARN stands for Amazon Resource Name, which is used in AWS (Amazon Web Services) to identify resources uniquely. The ARN format helps in specifying a resource unambiguously across all of AWS, which aids 
+        in permission policies and user activities.
+        An ARN is structured as:
+        arn:partition:service:region:account-id:resource-id
+        In this structure, "partition" is one of the components, and AWS currently has three main ARN partitions:
+        aws: The standard partition for general AWS regions.
+        aws-cn: The partition for China regions.
+        aws-us-gov: The partition for AWS GovCloud (US) regions.
+        These partitions help differentiate resources that reside in different geographic or regulatory boundaries.
 
 Q. 15 What are Tags?
-Answer: A tag is a label that you assign to a resource. A tag typically consists of a key-value pair, allowing you to categorize resources in various ways. For example, you might tag a resource with "Environment" as the key and "Production" as the value.
-Use Cases:
-Organization: Tags can help in categorizing and organizing resources based on project, team, purpose, or any other criteria.
-Cost Tracking: In cloud environments, tags can be used to track resource costs by department, project, or any other categorization to aid in billing or budgeting.
-Access Control: Some platforms allow the use of tags to control access to resources.
-Automation: Automation tools and scripts can leverage tags to determine which resources to act upon.
-Platforms: Most cloud providers, like AWS, Azure, and Google Cloud, offer tagging capabilities for their services. The specific implementations and constraints might vary, but the core concept remains consistent.
-Best Practices:
-Consistency: It's important to maintain a consistent tagging strategy to avoid confusion.
-Regular Review: Over time, the requirements and nomenclature may change, so it's good practice to review and update tags periodically.
-Avoid Sensitive Information: Tags are often visible in billing and management consoles, so avoid adding sensitive or personal data.
-In essence, tags are a flexible tool that can enhance resource management, tracking, and operations in various IT environments.
-
-
-
-
-
-
+Answer: A tag is a label that you assign to a resource. A tag typically consists of a key-value pair, allowing you to categorize resources in various ways.
 
 
 S3 [ Simple Storage Service]-
@@ -166,7 +151,8 @@ Scalability: Object storage is highly scalable and can handle massive amounts of
 Metadata: Object storage includes rich metadata capabilities, allowing users to attach additional information to objects. This metadata can be used for indexing, searching, and organizing data. Block storage, on the other hand, does not typically have built-in metadata capabilities, and any metadata associated with the data is managed by the operating system or application.
 Use Cases: Block storage is commonly used in scenarios that require low-level access to data, such as databases or virtual machines. It provides a high level of control and performance for these applications. Object storage, on the other hand, is often used for storing unstructured data like images, videos, documents, or backups. It is well-suited for use cases that require massive scalability, durability, and cost-effective storage.
 Overall, block storage offers low-level access and performance, while object storage provides scalability, metadata capabilities, and ease of use for large-scale data storage. The choice between them depends on the specific requirements and use cases of the application or workload.
-Q. 2 Difference between static website & dynamic website ?
+
+Q.2 Difference between static website & dynamic website ?
 Answer: Static websites and dynamic websites are two different types of websites based on how the content is generated and served. Here are the key differences between them:
 Content Generation: Static websites are created with fixed content that remains the same for every user. The content is typically written in HTML and CSS and stored as files on a web server. Dynamic websites, on the other hand, generate content dynamically by retrieving data from a database or other sources. The content is generated on the fly based on user requests and can vary for different users or based on certain conditions.
 Interactivity: Static websites are limited in terms of interactivity. They usually consist of static pages that provide information without much user interaction. Dynamic websites, on the other hand, can be highly interactive. They can include features like user login, forms, search functionality, personalized content, and real-time updates.
@@ -175,7 +161,8 @@ Scalability: Static websites are generally easier to scale as they can be cached
 Development Complexity: Static websites are relatively simple to develop as they involve creating static HTML and CSS files. Dynamic websites require more complex development, involving server-side scripting languages like PHP, Python, or JavaScript, along with database integration.
 SEO and Performance: Static websites are often considered more SEO-friendly as search engines can easily crawl and index their content. They also tend to have faster load times since the content is pre-generated and served as static files. Dynamic websites may require additional optimization efforts to ensure good SEO and performance, as the content is generated dynamically and may require database queries or server-side processing.
 Overall, static websites are suitable for simple informational websites with fixed content, while dynamic websites are more appropriate for interactive, data-driven websites that require frequent updates and user interactions. The choice between them depends on the specific requirements and goals of the website.
-Q. 3 What are the naming rules ?
+
+Q.3 What are the naming rules ?
 Answer: Naming rules refer to the guidelines and conventions used for naming variables, functions, classes, and other programming elements in software development. Here are some common naming rules:
 Use meaningful names: Names should be descriptive and reflect the purpose or functionality of the element being named. Avoid using abbreviations or acronyms that may not be easily understood by others.
 Use camelCase: In most programming languages, camelCase is used for naming variables, functions, and other elements. CamelCase involves starting the first word with a lowercase letter and then capitalizing the first letter of each subsequent word. For example, "firstName" or "getUserInfo".
@@ -186,13 +173,15 @@ Be consistent: Consistency is key in naming conventions. Use the same naming con
 Use plural for collections: When naming collections or arrays, use plural names to indicate that they contain multiple items. For example, "users" or "items".
 Use lowercase for constants: Constants should be named using all uppercase letters and underscores to separate words. For example, "MAX_VALUE" or "PI".
 Following these naming rules can help improve the readability, maintainability, and clarity of the codebase, making it easier for developers to understand and work with the code.
-Q. 4 What is the major resource of S3 Bucket ?
+
+Q.4 What is the major resource of S3 Bucket ?
 Answer: The major resource of an Amazon S3 (Simple Storage Service) bucket is the storage itself. S3 buckets are designed to store and retrieve any amount of data from anywhere on the web. They provide scalable, durable, and highly available object storage for various use cases.
 When you create an S3 bucket, you are essentially creating a container to store your data. This data can include files, documents, images, videos, backups, logs, and more. S3 buckets are organized by a globally unique bucket name, and the data within the bucket is stored as objects.
 Each object in an S3 bucket has a unique key that identifies it within the bucket. The key can be thought of as the path or filename of the object. Objects in S3 can range in size from 0 bytes to 5 terabytes, allowing for the storage of large files.
 In addition to the storage itself, S3 buckets provide various features and capabilities, such as versioning, access control, encryption, lifecycle management, event notifications, and integration with other AWS services. These features allow you to manage and secure your data effectively.
 Overall, the primary resource of an S3 bucket is the storage space it provides, allowing you to store and retrieve your data reliably and securely.
-Q. 5 Why do we need to host static websites instead of dynamic websites ?
+
+Q.5 Why do we need to host static websites instead of dynamic websites ?
 Answer: Static websites and dynamic websites serve different purposes and have different requirements. Here are some reasons why you might choose to host a static website instead of a dynamic website:
 Simplicity: Static websites are simpler to create and maintain than dynamic websites. They don't require a server-side scripting language or a database, which makes them easier to deploy and manage.
 Cost: Static websites are often less expensive to host than dynamic websites. Since they don't require a server-side scripting language or a database, you can host them on a cheaper web hosting plan or even use a free hosting service like GitHub Pages or Netlify.
@@ -200,62 +189,52 @@ Speed: Static websites are faster to load than dynamic websites because they don
 Security: Static websites are generally considered more secure than dynamic websites because they don't have a server-side scripting language or a database that can be vulnerable to attacks. They also don't require user input, which reduces the risk of security breaches.
 Scalability: Static websites are highly scalable because they can be cached and served directly from a web server without the need for additional processing. This means that they can handle large amounts of traffic without requiring additional resources or infrastructure.
 Overall, static websites are a good choice for simple websites with fixed content that don't require frequent updates or user interactions. They are easy to create and maintain, cost-effective, fast, secure, and scalable. However, if your website requires dynamic content or user interactions, a dynamic website with server-side scripting and a database may be a better choice.
-Q. 6 What is versioning & Why do we need versioning ?
-Answer: Versioning refers to the practice of assigning unique identifiers or numbers to different iterations or releases of a software, application, or any other type of system. Each version represents a distinct state of the system at a particular point in time.
-There are several reasons why versioning is important:
-Tracking changes: Versioning allows you to keep track of changes made to a system over time. By assigning unique identifiers to each version, you can easily identify and understand what changes have been made, when they were made, and who made them. This is crucial for maintaining a history of modifications and understanding the evolution of a system.
-Collaboration and teamwork: Versioning enables effective collaboration among multiple developers or teams working on the same project. It allows different individuals or groups to work on separate versions or branches of the system simultaneously, without interfering with each other's work. This makes it easier to manage and merge changes, ensuring that everyone is working with the most up-to-date version of the system.
-Bug tracking and issue resolution: Versioning helps in identifying and resolving bugs or issues that may arise in a system. When a bug is reported, developers can refer to the specific version in which the bug was identified, making it easier to locate and fix the problem. It also allows for the possibility of rolling back to a previous stable version if a critical issue is discovered in the latest release.
-Software updates and releases: Versioning is essential for managing software updates and releases. By incrementing the version number, users can easily identify and install the latest version of a software or application. Versioning also helps in communicating changes, new features, and bug fixes to users, making it easier for them to decide whether to update or not.
-Compatibility and dependencies: Versioning is crucial for managing compatibility and dependencies between different components or modules of a system. By specifying version requirements or dependencies, you can ensure that different parts of the system work together seamlessly and avoid conflicts or compatibility issues.
-In summary, versioning is important for tracking changes, enabling collaboration, resolving issues, managing updates, and ensuring compatibility in software and system development. It provides a structured approach to managing and documenting the evolution of a system over time.
-Q. 7 What are the objects and types of objects that we are uploading into the S3 Bucket ?
-Answer: In an S3 bucket, you can upload various types of objects, including:
 
-Files: These are the most common type of objects uploaded to an S3 bucket. Files can include documents, images, videos, audio files, archives, and any other type of file you want to store in the bucket.
-Folders (or directories): Folders are objects in S3 that provide a way to organize and structure your files. They act as containers for grouping related files together. Although S3 doesn't have a native concept of folders, you can simulate them by including a forward slash (/) in the object key to create a hierarchical structure.
-Static website files: You can upload HTML, CSS, JavaScript, and other static web files to an S3 bucket to host a static website. When properly configured, S3 can serve these files as a website, allowing visitors to access the content through a web browser.
-Database backups: S3 is commonly used to store backups of databases, such as MySQL or PostgreSQL. You can upload database backup files to an S3 bucket to ensure data durability and availability.
-Log files: Many applications and services generate log files that record events, errors, or other important information. You can upload log files to an S3 bucket for storage, analysis, and archival purposes.
-Application files: S3 can also be used to store application-specific files, such as configuration files, scripts, templates, or any other files required by your application.
-It's important to note that in S3, objects are identified by a unique key, which includes the object's path and filename. The key is used to retrieve, organize, and manage the objects within the bucket.
+Q.6 What is versioning & Why do we need versioning ?
+Answer: Versioning refers to the practice of assigning unique identifiers or numbers to different iterations or releases of a software, application, or any other type of system. Each version represents a 
+        distinct state of the system at a particular point in time.
+        There are several reasons why versioning is important:
+        1.Tracking changes
+        2.Collaboration and teamwork: 
+        3.Bug tracking and issue resolution
+        4.Software updates and releases
+        5.Compatibility and dependencies  
+        In summary, versioning is important for tracking changes, enabling collaboration, resolving issues, managing updates, and ensuring compatibility in software and system development. It provides a 
+        structured approach to managing and documenting the evolution of a system over time.
+
+Q.7 What are the objects and types of objects that we are uploading into the S3 Bucket ?
+Answer: In an S3 bucket, you can upload various types of objects, including:
+        1.Files
+        2.Folders (or directories): 
+        3.Static website files
+        4.Database backups
+        5.Log files
+        6.Application files
+
 Q. 8 Why is MFA Delete important in S3 Bucket object level ?
 Answer: MFA (Multi-Factor Authentication) Delete is an optional security feature in Amazon S3 that adds an extra layer of protection to your S3 objects by requiring a second factor of authentication before allowing the deletion of an object. This feature is important because it helps prevent accidental or malicious deletion of objects in your S3 bucket.
 Without MFA Delete, any user with sufficient permissions can delete objects in an S3 bucket, either intentionally or unintentionally. This can result in the permanent loss of data, which can be costly and time-consuming to recover. Accidental deletions can occur due to human error, such as mis-clicking or mis-typing, or due to software bugs or glitches.
 MFA Delete adds an additional layer of security to the deletion process by requiring the user to provide a second factor of authentication, such as a physical token or a mobile app, in addition to their regular AWS credentials. This ensures that only authorized users with physical possession of the MFA device can delete objects in the bucket, making it much harder for attackers to delete objects maliciously.
 MFA Delete is particularly important for organizations that store sensitive or critical data in S3, as it provides an extra layer of protection against data loss or data breaches. It is also a recommended best practice for compliance with various security standards and regulations, such as PCI DSS, HIPAA, and GDPR.
 In summary, MFA Delete is important in S3 bucket object level because it helps prevent accidental or malicious deletion of objects, adds an extra layer of security to the deletion process, and is a recommended best practice for compliance with security standards and regulations.
+
 Q. 9 What is S3 Multipart upload ?
 Answer: S3 Multipart Upload is a feature of Amazon S3 that allows you to upload large objects in parts, instead of uploading the entire object in a single request. It is particularly useful when dealing with files that are larger than 100 MB, as it provides benefits such as improved reliability, parallelization, and resumability.
-When you initiate a multipart upload, you break the object into smaller parts and upload each part independently. Each part is assigned a unique part number, and S3 combines these parts to create the final object once all parts have been uploaded. This approach offers several advantages:
-Reliability: Multipart Upload improves the reliability of large uploads by allowing you to retry uploading only the failed parts, rather than starting the entire upload process from scratch. It helps to mitigate the impact of network errors, interruptions, or timeouts during the upload process.
-Parallelization: Multipart Upload enables parallelization of the upload process. You can upload multiple parts simultaneously, taking advantage of increased network bandwidth and reducing the overall upload time.
-Resumability: If an upload is interrupted or fails, you can resume the upload from where it left off by re-uploading only the remaining parts. This resumability feature saves time and bandwidth, especially when dealing with large files.
-Optimal part size: With Multipart Upload, you can choose the size of each part based on your specific requirements. By selecting an optimal part size, you can maximize upload efficiency and minimize overhead.
-S3 features compatibility: Multipart Upload is required for certain S3 features, such as lifecycle policies for transitioning objects between storage classes or using S3 Transfer Acceleration for faster uploads.
-Multipart Upload is typically used via the AWS SDKs or API, which handle the complexity of managing the upload process. However, it can also be used directly through the AWS Management Console or command-line interface (CLI).
-In summary, S3 Multipart Upload is a mechanism for uploading large objects in parts, providing benefits such as improved reliability, parallelization, resumability, and compatibility with various S3 features. It is a recommended approach for efficient and robust uploading of large files to Amazon S3.
-Q. 10 What are the storage classes in Amazon S3 ? 
+
+Q.10 What are the storage classes in Amazon S3 ? 
 Answer: Amazon S3 offers several storage classes, each designed to meet different performance, durability, and cost requirements. The storage classes available in Amazon S3 are:
-Standard: This is the default storage class and provides high durability, availability, and performance. It is suitable for frequently accessed data and offers low latency and high throughput.
-Intelligent-Tiering: This storage class is ideal for data with unpredictable access patterns. It automatically moves objects between two access tiers: frequent access and infrequent access, based on the changing usage patterns. This helps optimize costs by automatically placing data in the most cost-effective tier.
-Standard-IA (Infrequent Access): Standard-IA is designed for data that is accessed less frequently but still requires rapid access when needed. It offers lower storage costs compared to the Standard class, but with a slightly higher retrieval fee.
-One Zone-IA: This storage class is similar to Standard-IA but stores data in a single availability zone, rather than across multiple zones. It provides a lower-cost option for infrequently accessed data that does not require the same level of availability as the other storage classes.
-Glacier: Glacier is a low-cost storage class designed for long-term archival of data that is rarely accessed. It offers very low storage costs but has a longer retrieval time (several hours) compared to the other storage classes.
-Glacier Deep Archive: This is the most cost-effective storage class in S3, designed for long-term archival of data that is accessed once or twice a year. It has the lowest storage costs but has a longer retrieval time (12 hours) compared to Glacier.
-S3 Outposts: This storage class is designed for S3 data stored on-premises using AWS Outposts. It allows you to store and access data locally on Outposts while still benefiting from S3 features and integration with other AWS services.
-Each storage class offers different durability, availability, performance, and cost characteristics, allowing you to choose the most suitable option for your specific use case and data access patterns.
+        1.Standard
+        2.Intelligent-Tiering
+        3.Standard-IA (Infrequent Access)
+        4.One Zone-IA
+        5.Glacier
+        6.Glacier Deep Archive
+        7.S3 Outposts
 
-
-Q. 11 What is ACL ?
+Q.11 What is ACL ?
 Answer: ACL stands for Access Control List, which is a set of permissions that define who can access an Amazon S3 bucket or object and what actions they can perform on it. ACLs are used to manage access to S3 resources at a granular level, allowing you to control access to individual objects or entire buckets.
-An ACL is a list of grant statements, where each statement specifies a grantee (user, group, or AWS account) and the permissions that are granted to them. The permissions can be either READ, WRITE, READ_ACP (read access to the object ACL), WRITE_ACP (write access to the object ACL), or FULL_CONTROL (all permissions).
-There are two types of ACLs in S3:
-Bucket ACL: A bucket ACL is a set of permissions that apply to the entire bucket. It defines who can access the bucket and what actions they can perform on it. You can set a bucket ACL when you create a bucket or modify it later using the S3 console, API, or AWS CLI.
-Object ACL: An object ACL is a set of permissions that apply to a specific object in a bucket. It defines who can access the object and what actions they can perform on it. You can set an object ACL when you upload an object or modify it later using the S3 console, API, or AWS CLI.
-ACLs are useful for controlling access to S3 resources and ensuring that only authorized users or applications can access them. They are also useful for complying with security and regulatory requirements, as they allow you to restrict access to sensitive data and monitor access to it.
-In addition to ACLs, S3 also provides other mechanisms for controlling access to resources, such as bucket policies and IAM policies. These mechanisms can be used together to provide a comprehensive access control solution for your S3 resources.
-Q. 12 Why do we need ACL ?
+
+Q.12 Why do we need ACL ?
 Answer: ACLs (Access Control Lists) are necessary for several reasons:
 Granular access control: ACLs allow you to define fine-grained permissions for individual users, groups, or AWS accounts. This level of control enables you to grant or restrict access to specific S3 buckets or objects based on user roles, responsibilities, or business requirements.
 Data security: ACLs play a crucial role in ensuring the security of your data stored in Amazon S3. By properly configuring ACLs, you can restrict access to sensitive information and prevent unauthorized users from accessing or modifying your data.
@@ -264,25 +243,28 @@ Collaboration and sharing: ACLs allow you to share S3 buckets or objects with ot
 Access monitoring and auditing: ACLs provide a mechanism for tracking and auditing access to S3 resources. By configuring appropriate ACLs, you can log and monitor access events, enabling you to review and analyze access patterns, detect potential security breaches, and maintain an audit trail for compliance purposes.
 Integration with other AWS services: ACLs are integrated with other AWS services, such as IAM (Identity and Access Management) and S3 bucket policies. By combining ACLs with IAM policies and bucket policies, you can create comprehensive access control strategies that encompass user permissions, resource-based policies, and network-level controls.
 Overall, ACLs are essential for maintaining the security, compliance, and accessibility of your data stored in Amazon S3. They provide the flexibility to define and enforce access controls at a granular level, ensuring that only authorized users or applications can access and manipulate your S3 resources.
-Q. 13 What is a Life cycle policy ? Why do we need to use the life cycle rule ?
-Answer: A lifecycle policy in Amazon S3 is a set of rules that define the actions to be taken on objects in a bucket over time. It allows you to automate the management of your S3 objects by transitioning them between different storage classes or deleting them based on specified criteria.
-Here's why you may need to use a lifecycle policy:
-Cost optimization: Lifecycle policies help optimize costs by automatically moving objects to lower-cost storage classes as they age. For example, you can set a rule to transition objects from the Standard storage class to the Infrequent Access (IA) or Glacier storage class after a certain period of time. This way, you can store less frequently accessed data in a more cost-effective manner.
-Data lifecycle management: Lifecycle policies enable you to define the lifecycle of your data and ensure that it is stored and managed appropriately throughout its lifespan. You can set rules to automatically delete or archive objects after a specified period, ensuring compliance with data retention policies or regulatory requirements.
-Performance optimization: By moving less frequently accessed data to lower-cost storage classes, lifecycle policies help improve the performance of your applications by reducing the storage costs and the number of objects that need to be processed.
-Simplified management: Lifecycle policies automate the management of your objects, reducing the manual effort required to move or delete objects based on their lifecycle. Once you define the rules, S3 automatically applies them to the objects in your bucket, simplifying the management and reducing the chance of errors.
-Data protection and disaster recovery: Lifecycle policies can be used to create backup and disaster recovery strategies. For example, you can set rules to automatically replicate objects to a different region or create periodic backups of your objects in Glacier or Glacier Deep Archive for long-term retention.
-Compliance and data retention: Lifecycle policies help enforce data retention policies by automatically deleting or archiving objects after a specified period. This ensures that data is retained for the required duration and is disposed of in a compliant manner.
-Overall, lifecycle policies in Amazon S3 provide a powerful mechanism to automate the management of your objects, optimize costs, improve performance, and ensure compliance with data retention policies. By defining lifecycle rules, you can streamline the storage and management of your data throughout its lifecycle.
-Q. 14 How can we make our bucket public ?
-Answer: To make an Amazon S3 bucket public, you need to adjust the bucket's permissions and access control settings. Here are the steps to make a bucket public:
-Sign in to the AWS Management Console and navigate to the Amazon S3 service.
-Select the bucket for which you want to make the contents public.
-Click on the "Permissions" tab.
 
-Under the "Block public access" section, ensure that all settings are disabled. This includes "Block all public access" and "Block public access to buckets and objects granted through new access control lists (ACLs)".
-Scroll down to the "Bucket policy" section and click on the "Edit" button.
-In the bucket policy editor, enter the following policy to allow public access to all objects in the bucket:
+Q.13 What is a Life cycle policy ? Why do we need to use the life cycle rule ?
+Answer: A lifecycle policy in Amazon S3 is a set of rules that define the actions to be taken on objects in a bucket over time. It allows you to automate the management of your S3 objects by transitioning them 
+        between different storage classes or deleting them based on specified criteria.
+        Here's why we need to use a lifecycle policy:
+        1. Cost optimization
+        2. Data lifecycle management
+        3.Performance optimization
+        4.Simplified management
+        5.Data protection and disaster recovery
+        6.Compliance and data retention
+        Overall, lifecycle policies in Amazon S3 provide a powerful mechanism to automate the management of your objects, optimize costs, improve performance, and ensure compliance with data retention policies. 
+      
+Q.14 How can we make our bucket public ?
+Answer: To make an Amazon S3 bucket public, you need to adjust the bucket's permissions and access control settings. Here are the steps to make a bucket public:
+        Sign in to the AWS Management Console and navigate to the Amazon S3 service.
+        Select the bucket for which you want to make the contents public.
+        Click on the "Permissions" tab.
+        Under the "Block public access" section, ensure that all settings are disabled. This includes "Block all public access" and "Block public access to buckets and objects granted through new access control 
+        lists (ACLs)".
+        Scroll down to the "Bucket policy" section and click on the "Edit" button.
+        In the bucket policy editor, enter the following policy to allow public access to all objects in the bucket:
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -299,60 +281,85 @@ In the bucket policy editor, enter the following policy to allow public access t
     }
   ]
 }
-Replace "your-bucket-name" with the actual name of your bucket.
-Click on the "Save changes" button to apply the bucket policy.
-After making these changes, all objects in the bucket will be publicly accessible. Keep in mind that making a bucket public means that anyone with the object URL can access its contents. Ensure that you understand the implications and potential security risks before making a bucket public.
-Q. 15 How can we give public access to our bucket ?
+       Replace "your-bucket-name" with the actual name of your bucket.
+       Click on the "Save changes" button to apply the bucket policy.
+       After making these changes, all objects in the bucket will be publicly accessible. Keep in mind that making a bucket public means that anyone with the object URL can access its contents. Ensure that you 
+       understand the implications and potential security risks before making a bucket public.
+
+Q.15 How can we give public access to our bucket ?
 Answer: To give public access to an Amazon S3 bucket, you can adjust the bucket's permissions and access control settings. Here are the steps to give public access to a bucket:
-Sign in to the AWS Management Console and navigate to the Amazon S3 service.
-Select the bucket for which you want to give public access.
-Click on the "Permissions" tab.
-Under the "Block public access" section, ensure that all settings are disabled. This includes "Block all public access" and "Block public access to buckets and objects granted through new access control lists (ACLs)".
-Scroll down to the "Access control list (ACL)" section and click on the "Edit" button.
-In the ACL editor, grant "Read" or "Read/Write" access to the "Everyone" group. This will give public access to the bucket and its objects.
-Note: Granting "Read/Write" access to the "Everyone" group will allow anyone to modify or delete objects in the bucket. Only grant "Read" access if you want to restrict write/delete operations to specific users or applications.
-Click on the "Save changes" button to apply the ACL changes.
-After making these changes, the bucket and its objects will be publicly accessible. Keep in mind that giving public access means that anyone with the object URL can access and potentially modify or delete its contents. Ensure that you understand the implications and potential security risks before giving public access to a bucket.
-Q. 16 Aws pricing factor of the S3 Service?
+        Sign in to the AWS Management Console and navigate to the Amazon S3 service.
+        Select the bucket for which you want to give public access.
+        Click on the "Permissions" tab.
+        Under the "Block public access" section, ensure that all settings are disabled. This includes "Block all public access" and "Block public access to buckets and objects granted through new access control 
+        lists (ACLs)".
+        Scroll down to the "Access control list (ACL)" section and click on the "Edit" button.
+        In the ACL editor, grant "Read" or "Read/Write" access to the "Everyone" group. This will give public access to the bucket and its objects.
+        Note: Granting "Read/Write" access to the "Everyone" group will allow anyone to modify or delete objects in the bucket. Only grant "Read" access if you want to restrict write/delete operations to 
+        specific users or applications.
+        Click on the "Save changes" button to apply the ACL changes.
+        After making these changes, the bucket and its objects will be publicly accessible. Keep in mind that giving public access means that anyone with the object URL can access and potentially modify or 
+        delete its contents. Ensure that you understand the implications and potential security risks before giving public access to a bucket.
+
+Q.16 Aws pricing factor of the S3 Service?
 Answer: The pricing for Amazon S3 (Simple Storage Service) is determined by several factors. Here are the main components that affect the cost:
-Storage usage: You are charged based on the amount of data stored in your S3 buckets. This includes the size of the objects, the number of objects, and any additional metadata associated with the objects.
-Data transfer: There are costs associated with transferring data in and out of your S3 buckets. This includes data transfer within the same AWS Region, data transfer between different AWS Regions, and data transfer out to the internet.
-Requests: S3 charges for the number of requests made to your buckets. This includes GET requests (retrieving objects), PUT requests (uploading objects), COPY requests, and other API calls.
-Storage management features: S3 offers various storage management features like versioning, cross-region replication, and lifecycle policies. Enabling these features may incur additional costs.
-Storage classes: S3 provides different storage classes with varying performance and cost characteristics. The pricing varies depending on the storage class you choose, such as Standard, Intelligent-Tiering, Glacier, and Glacier Deep Archive.
-Data transfer acceleration: If you choose to use Amazon S3 Transfer Acceleration to speed up data transfers, there may be additional costs associated with this feature.
-It's important to review the AWS pricing documentation for Amazon S3 to get detailed and up-to-date information on the pricing structure, as pricing can vary based on factors such as region and usage patterns.
+       Storage usage: You are charged based on the amount of data stored in your S3 buckets. This includes the size of the objects, the number of objects, and any additional metadata associated with the objects.
+       Data transfer: There are costs associated with transferring data in and out of your S3 buckets. This includes data transfer within the same AWS Region, data transfer between different AWS Regions, and 
+       data transfer out to the internet.
+       Requests: S3 charges for the number of requests made to your buckets. This includes GET requests (retrieving objects), PUT requests (uploading objects), COPY requests, and other API calls.
+       Storage management features: S3 offers various storage management features like versioning, cross-region replication, and lifecycle policies. Enabling these features may incur additional costs.
+       Storage classes: S3 provides different storage classes with varying performance and cost characteristics. The pricing varies depending on the storage class you choose, such as Standard, Intelligent- 
+       Tiering, Glacier, and Glacier Deep Archive.
+       Data transfer acceleration: If you choose to use Amazon S3 Transfer Acceleration to speed up data transfers, there may be additional costs associated with this feature.
+       It's important to review the AWS pricing documentation for Amazon S3 to get detailed and up-to-date information on the pricing structure, as pricing can vary based on factors such as region and usage 
+       patterns.
+
 Q.17 How can we make our object public ?
 Answer : To make every object public you should add a Bucket Policy to the bucket.
-Go to the bucket's Permissions tab
-Go to the Block public access options
-Turn off the options that mention Bucket Policies
+         Go to the bucket's Permissions tab
+         Go to the Block public access options
+         Turn off the options that mention Bucket Policies
+
 Q. 18 How can we configure the static website logs in s3 ?
 
+
+
 Q.19 What is CORS ?
-“CORS” stands for Cross- Origin Resource Sharing. It allows you to make requests from one website to another website in the browser, which is normally prohibited by another browser policy called the Same-Origin Policy (SOP). 
+Answer:“CORS” stands for Cross- Origin Resource Sharing. It allows you to make requests from one website to another website in the browser, which is normally prohibited by another browser policy called the 
+        Same-Origin Policy (SOP). 
 
 Q.20 What is S3 Inventory ?
-This tool lets you see an inventory of all the objects in your S3 bucket daily or weekly. S3 inventory provides a detailed list of your objects and offers information about many metadata fields, such as storage class and size. This feature makes S3 inventory a valuable tool to AWS admins who want to keep track of their data usage and costs.
+ Answer:This tool lets you see an inventory of all the objects in your S3 bucket daily or weekly. S3 inventory provides a detailed list of your objects and offers information about many metadata fields, such as 
+        storage class and size. This feature makes S3 inventory a valuable tool to AWS admins who want to keep track of their data usage and costs.
 
 Q.21 What does it mean by Requester pays ?
-With Requester Pays buckets, the requester instead of the bucket owner pays the cost of the request and the data download from the bucket. The bucket owner always pays the cost of storing data.
-1.	What is the secondary word to Transfer acceleration ?Why do we need to use this transfer acceleration ?
+ Answer:With Requester Pays buckets, the requester instead of the bucket owner pays the cost of the request and the data download from the bucket. The bucket owner always pays the cost of storing data.
+
+Q.22	What is the secondary word to Transfer acceleration ?Why do we need to use this transfer acceleration ?
+Answer:
+
+
 
 Cloud Trail –
 Q.1 What is a cloud trail?
-ANS: A cloud trail is a service provided by cloud computing platforms that allows users to monitor and log all API calls made on their account. This helps in tracking changes to resources, troubleshooting operational and security issues, and ensuring compliance with regulatory requirements. Cloud trail provides a comprehensive view of all activity within an account, including actions taken by users, applications, and services.
+Answer: A cloud trail is a service provided by cloud computing platforms that allows users to monitor and log all API calls made on their account. This helps in tracking changes to resources, troubleshooting 
+        operational and security issues, and ensuring compliance with regulatory requirements. Cloud trail provides a comprehensive view of all activity within an account, including actions taken by users, 
+        applications, and services.
 
 Q.2 Why do we use trails, what is the exact purpose of enabling the trail in cloud production accounts?
-ANS: Enabling a cloud trail in a production account serves several important purposes:
-Security and Compliance: Cloud trails help in monitoring and auditing all activities within the cloud environment, ensuring that security policies and compliance requirements are being met. This includes tracking who accessed resources, what changes were made, and when they occurred.
-Troubleshooting and Debugging: By providing detailed logs of API calls and activities, cloud trails can be instrumental in troubleshooting and debugging issues within the cloud environment. This can help in identifying the root cause of problems and resolving them more effectively.
-Governance and Risk Management: Cloud trails enable organizations to gain better visibility and control over their cloud infrastructure, allowing them to manage risks and govern their cloud usage more effectively.
-Forensic Analysis: In the event of a security incident or breach, cloud trails can provide valuable forensic evidence to understand the nature of the incident, identify the source, and take appropriate remediation actions.
-Overall, enabling a cloud trail in a production account is crucial for maintaining security, compliance, and operational integrity within a cloud environment.
+Answer: Enabling a cloud trail in a production account serves several important purposes:
+        Security and Compliance: Cloud trails help in monitoring and auditing all activities within the cloud environment, ensuring that security policies and compliance requirements are being met. This 
+        includes tracking who accessed resources, what changes were made, and when they occurred.
+        Troubleshooting and Debugging: By providing detailed logs of API calls and activities, cloud trails can be instrumental in troubleshooting and debugging issues within the cloud environment. This can 
+        help in identifying the root cause of problems and resolving them more effectively.
+        Governance and Risk Management: Cloud trails enable organizations to gain better visibility and control over their cloud infrastructure, allowing them to manage risks and govern their cloud usage more 
+        effectively.
+        Forensic Analysis: In the event of a security incident or breach, cloud trails can provide valuable forensic evidence to understand the nature of the incident, identify the source, and take appropriate 
+        remediation actions.
+        Overall, enabling a cloud trail in a production account is crucial for maintaining security, compliance, and operational integrity within a cloud environment.
 
 Q.3 Explain how we can create a trail in aws cloud trail?
-ANS: To create a trail in AWS CloudTrail, follow these steps:
+Answer: To create a trail in AWS CloudTrail, follow these steps:
 1. Sign in to the AWS Management Console and open the CloudTrail console at https://console.aws.amazon.com/cloudtrail/.
 2. In the CloudTrail console, choose Trails in the navigation pane.
 3. Choose Create trail.
@@ -363,7 +370,7 @@ ANS: To create a trail in AWS CloudTrail, follow these steps:
 Once you have completed these steps, the trail will be created and will start capturing API activity and data events according to the settings you specified. You can then view and analyze the log files in the specified S3 bucket using the AWS Management Console, CLI, or API.
 
 Q.4 How can we enable logging for S3 bucket using cloud trails?
-ANS: To enable logging for S3 bucket using CloudTrail, follow these steps:
+Answer: To enable logging for S3 bucket using CloudTrail, follow these steps:
 1. Open the CloudTrail console at https://console.aws.amazon.com/cloudtrail/.
 2. In the navigation pane, choose Trails.
 3. Select the trail for which you want to enable S3 bucket logging.
@@ -380,7 +387,7 @@ Once you have completed these steps, CloudTrail will start capturing data events
 
 
 Q.5 How do you get the list of all created trailers in your production account?
-ANS: To get the list of all created trails in your AWS production account, you can use the AWS Command Line Interface (CLI) or the AWS Management Console. Here's how you can do it using both methods:
+Answer: To get the list of all created trails in your AWS production account, you can use the AWS Command Line Interface (CLI) or the AWS Management Console. Here's how you can do it using both methods:
 Using AWS CLI:
 1. Open your terminal or command prompt.
 2. Run the following command to list all the trails in your AWS account:
@@ -393,7 +400,7 @@ Using AWS Management Console:
 By using either of these methods, you can easily get the list of all created trails in your AWS production account.
 
 Q.6 Can we create a trail for a multi region, if yes then how can we configure it?
-ANS: Yes, we can create a trail for a multi-region in AWS CloudTrail. To configure a multi-region trail, follow these steps:
+Answer: Yes, we can create a trail for a multi-region in AWS CloudTrail. To configure a multi-region trail, follow these steps:
 1. Open the CloudTrail console at https://console.aws.amazon.com/cloudtrail/.
 2. Choose Trails in the navigation pane.
 3. Choose Create trail.
@@ -407,7 +414,7 @@ Once you have completed these steps, the trail will be created and will start ca
 Note: Multi-region trails incur additional charges for data transfer and storage. You should carefully consider the cost implications before configuring a multi-region trail.
 
 Q.7 How can we disable the logging for certain events, services in cloud trail, If yes so explain how?
-ANS: Yes, you can disable logging for certain events or services in AWS CloudTrail by configuring event selectors for your trail. Event selectors allow you to specify which events you want to log and which ones you want to exclude.
+Answer: Yes, you can disable logging for certain events or services in AWS CloudTrail by configuring event selectors for your trail. Event selectors allow you to specify which events you want to log and which ones you want to exclude.
 Here's how you can disable logging for certain events or services in CloudTrail using the AWS Management Console:
 1. Sign in to the AWS Management Console and open the CloudTrail console at https://console.aws.amazon.com/cloudtrail/.
 2. In the CloudTrail console, choose Trails in the navigation pane.
