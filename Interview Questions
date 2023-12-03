@@ -9,72 +9,24 @@ Q.2 Deployment Model in Cloud ?
 4.	Community Cloud
 
 1.	Public Cloud – 
-                   As the name, Public cloud is available for all public & resources shared between all users. Public cloud is available to anyone from anywhere via internet.  This computing model is available at the data center which is controlled by Vendors. Example are likes AWS, Azure, GCP
-                  Advantages -
-        -    Availability is Higher at anywhere & anytime
--	No setup Cost
--	Infrastructure management is not required.
--	No maintenance.
--	Scalability
-                  Disadvantages –
--	Less Secure.
--	Low Customization.
-
+      As the name, Public cloud is available for all public & resources shared between all users. Public cloud is available to anyone from anywhere via internet.  This computing model is available at the data center which is controlled by Vendors. Example are likes AWS, Azure, GCP
 2.	Private Cloud
-                    Private Cloud is used in particular organization, in which customization is available for single user. It is also known as ‘Internal Cloud’.
-Advantages – 
--	Data security & privacy
--	Customization is available
--	Better Control
-                  Disadvantage
--	Costly
--	Less Scalability
-
-
-
+      Private Cloud is used in particular organization, in which customization is available for single user. It is also known as ‘Internal Cloud’
 3.	Hybrid Cloud
--	Hybrid cloud made by two & more deployment models that’s work together to provide user with greater flexibility. The combination of private, public, & community resource provides customers with more option for accessing their data than with just one model alone.
-                  Advantages –
--	Flexibility and control:  Businesses with more flexibility can design personalized solutions that meet their particular needs.
--	Cost:   Because public clouds provide scalability, you’ll only be responsible for paying for the extra capacity if you require it.
--	Security: Because data is properly separated, the chances of data theft by attackers are considerably reduced.
-
-
-                   Disadvantages –
--	Difficult to manage: Hybrid clouds are difficult to manage as it is a combination of both public and private cloud. So, it is complex.
--	Slow data transmission: Data transmission in the hybrid cloud takes place through the public cloud so latency occurs.
-
+     	Hybrid cloud made by two & more deployment models that’s work together to provide user with greater flexibility. The combination of private, public, & community resource provides customers with more option for accessing their data than with just one model alone.
 4.	Community Cloud
-             It allows systems and services to be accessible by a group of organizations. It is a distributed system that is created by integrating the services of different clouds to address the specific needs of a community, industry, or business. The infrastructure of the community could be shared between the organization which has shared concerns or tasks. It is generally managed by a third party or by the combination of one or more organizations in the community.        Advantages –
--	Cost Effective: It is cost-effective because the cloud is shared by multiple organizations or communities.
--	Security: Community cloud provides better security.
--	Shared resources: It allows you to share resources, infrastructure, etc. with multiple organizations.
--	Collaboration and data sharing: It is suitable for both collaboration and data sharing.
-Disadvantages –
--	Limited Scalability: Community cloud is relatively less scalable as many organizations share the same resources according to their collaborative interests. 
--	Rigid in customization: As the data and resources are shared among different organizations according to their mutual interests if an organization wants some changes according to their needs they cannot do so because it will have an impact on other organizations.
+      It allows systems and services to be accessible by a group of organizations. It is a distributed system that is created by integrating the services of different clouds to address the specific needs of a community, industry, or business. The infrastructure of the community could be shared between the organization which has shared concerns or tasks. It is generally managed by a third party or by the combination of one or more organizations in the community.
    
 Q.3 Service Model in Cloud ?
 Answer : There is 3 types of Service models in Cloud.
 1.	Software as a Service [SaaS] -
-                      Software as a service vendors host the applications, making them available to users via the internet. With SaaS, businesses don't have to install or download any software to their existing IT infrastructures. SaaS ensures that users are always running the most up-to-date versions of the software. The SaaS provider handles maintenance and support.
+      Software as a service vendors host the applications, making them available to users via the internet. With SaaS, businesses don't have to install or download any software to their existing IT 
+      infrastructures. SaaS ensures that users are always running the most up-to-date versions of the software. The SaaS provider handles maintenance and support.
 2.	Platform as a Service [PaaS] -
-                     Platform as a service offers developers a platform for software development and deployment over the internet, enabling them to access up-to-date tools. PaaS delivers a framework that developers can use to create customized applications. The organization or the PaaS cloud vendor manage the servers, storage and networking, while the developers manage the applications.
+      Platform as a service offers developers a platform for software development and deployment over the internet, enabling them to access up-to-date tools. PaaS delivers a framework that developers can use to c     create customized applications. The organization or the PaaS cloud vendor manage the servers, storage and networking, while the developers manage the applications.
 3.	Infrastructure as a Service [IaaS] -
-                    Infrastructure as a service is used by companies that don't want to maintain their own on-premises data centers. IaaS provides virtual computing resources over the Internet. The IaaS cloud vendor hosts the infrastructure components that typically exist in an on-premises data center, including servers, storage and networking hardware, as well as the hypervisor or virtualization layer.
-
-
-
-
-
-
-
-
-
-
-
-
-
+      Infrastructure as a service is used by companies that don't want to maintain their own on-premises data centers. IaaS provides virtual computing resources over the Internet. The IaaS cloud vendor hosts 
+      the infrastructure components that typically exist in an on-premises data center, including servers, storage and networking hardware, as well as the hypervisor or virtualization layer.
 
 Q.4 Architecture of Cloud Computing ?
 Answer : Cloud Computing is the one of the demanding technology of current time. Which is providing Virtualized services as per demand. Starting from small to medium and medium to large, every organization use cloud computing services for storing information and accessing it from anywhere and any time only with the help of internet.
@@ -83,25 +35,18 @@ Architecture having 2 parts –
 2.	Backend
 
 1.	 Frontend -
-           As you see in the diagram, frontend of the cloud architecture refers to the client side of cloud computing system. Means it contains all the user interfaces and applications which are used by the client to access the cloud computing services.
+        As you see in the diagram, frontend of the cloud architecture refers to the client side of cloud computing system. Means it contains all the user interfaces and applications which are used by the 
+        client to access the cloud computing services.
  
 2.	 Backend : 
-                      Backend refers to the cloud itself which is used by the service provider. Along with this, it includes huge storage, virtual applications, virtual machines, traffic control mechanisms, deployment models, etc.
-
-
-
-
-
-
-
-
+        Backend refers to the cloud itself which is used by the service provider. Along with this, it includes huge storage, virtual applications, virtual machines, traffic control mechanisms, deployment 
+        models, etc.
 
  Q.5 AWS Global Infrastructure Count ?
 Answer :
 1  Launched Regions = 32 (each with multiple AZ’s)
 2. Availability Zone = 102
 3.  Points of Presence = 550+ (13 Regional Edge caches) 
-
 
 Q.6 Why do we use region ?
 Answer :
@@ -118,55 +63,34 @@ Answer : There are various types of services available in AWS & in that services
  Resource : Every service has its own resource to build and run your applications and infrastructure in the cloud. Each resource may have its own attributes, settings, and configurations that you can define based on your specific requirements.
 
 
-
-
-
-
-
-
-
-
-
-
 IAM – Identity & Access Management -
 Q. 1 How many resources do we have in Identity and Access Management (IAM)?
-Answer: The number of resources in Identity and Access Management (IAM) can vary based on the IAM system used and the resources configured by an organization.
-Generally, IAM systems offer resources for managing user identities, access policies, authentication methods, and authorization controls. These resources may include user directories, access control lists, role-based access controls, tools for multi-factor authentication, and other security features.
-IAM systems can also provide resources for managing cloud-based services like Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP), which may have their own unique IAM resources and features.
-The specific number and types of resources in an IAM system depend on an organization's needs and the capabilities of the IAM system being used.
+Answer: The number of resources in Identity and Access Management (IAM) like User, Users groups, Roles , Access Policies,authentication methods, MFA. 
 
 Q. 2 Deployment model in Identity and Access Management (IAM)?
-Answer: In Identity and Access Management (IAM), organizations have different options for deploying their IAM system based on their specific needs.
-One option is On-Premises IAM, where the IAM system is set up and managed within the organization's own infrastructure. This gives the organization complete control over the system and its data, but also requires them to handle maintenance, upgrades, and security.
-Another option is Cloud-Based IAM, where the IAM system is hosted and managed by a cloud service provider. Organizations can access and use the IAM system through the internet without needing their own infrastructure. Cloud-based IAM offers scalability, flexibility, and reduces maintenance responsibilities. Examples of cloud-based IAM services include AWS IAM, Azure Active Directory, and Google Cloud IAM.
-A third option is Hybrid IAM, which combines both on-premises and cloud-based IAM solutions. Organizations can keep some IAM components on-premises while utilizing cloud-based IAM services for specific needs. This allows organizations to have control over critical systems while benefiting from the scalability and flexibility of the cloud.
-The choice of deployment model depends on factors like the organization's infrastructure, budget, security requirements, and scalability needs. It's important for organizations to carefully evaluate their specific requirements before selecting a deployment model for their IAM system.
+Answer: 1. On-Premises 
+        2. Cloud-Based 
+        3. Hybrid
+
 Q. 3 Identities in Identity and Access Management (IAM)?
-Answer: In Identity and Access Management (IAM), identities are the people or entities who are given permission to use an organization's resources. These can be employees, contractors, partners, customers, or anyone who needs access to specific systems, applications, or information.
+Answer: In IAM, identities are the people or entities who are given permission to use an organization's resources. These can be employees, contractors, partners, customers, or anyone who needs access.
 Identities are usually represented by user accounts or profiles in the IAM system. Each identity has certain characteristics like a username, password, email address, and roles or permissions that determine what they can do and what they can access.
-IAM systems provide tools and features for managing these identities. This includes creating and setting up user accounts, defining rules and permissions for access, and making sure only authorized individuals can use the resources. The systems also handle tasks like adding and removing users, and regularly checking access to ensure it is appropriate.
-By effectively managing identities, IAM systems help organizations make sure that only the right people can access their resources. This helps maintain the security and privacy of data, and ensures compliance with rules and regulations.
+
 Q. 4 What is an Identity and Access Management (IAM) User?
-Answer: A user is someone who interacts with a computer system or network. In Identity and Access Management (IAM), an IAM user is an entity that represents a person or service that interacts with a system or network using login credentials such as a username and password.
-IAM users are created and managed within an IAM system, which enables administrators to control and manage their access to different resources and services within the system. IAM users can be assigned specific roles and permissions, which determine their ability to access resources and perform actions.
-IAM users are commonly used in organizations to manage access to systems, applications, and data. They can be employees, contractors, partners, or any other individual or entity that requires access to the organization's resources.
-By using IAM, organizations can ensure that only authorized individuals or services have access to their systems and data, which helps prevent unauthorized access and potential security breaches.
+Answer: A user is someone who interacts with a computer system or network. In IAM, an IAM user is an entity that represents a person or service that interacts with a system or network using login credentials such as a username and password. IAM users are created and managed within an IAM system.
+
 Q. 5 What is the Identity and Access Management (IAM) Group?
-Answer: In Identity and Access Management (IAM), a group is a bunch of people who have similar attributes like roles, permissions, or access levels. Groups are used to make it easier to control and manage access to resources in an organization's IAM system.
-By putting people into groups, administrators can easily control who can access certain things based on their job, department, or other factors. For example, a company might create a group for all the employees in the finance department, giving them specific permissions to use financial data and systems.
-Groups can also be nested, which means one group can be inside another. This allows for more detailed control over access. For example, there could be a group for all the managers that is inside a group for all the employees. The manager group might have extra permissions.
-IAM systems have tools to create and manage groups. This includes adding or removing people, setting permissions, and making rules about who can access what. By managing groups well, organizations can make sure that the right people have access to the right things, while still keeping things secure and following the rules.
+Answer: In IAM, a group is a bunch of people who have similar attributes like roles, permissions, or access levels. Groups are used to make it easier to control and manage access to resources in an organization's IAM system. By putting people into groups, administrators can easily control who can access certain things based on their job, department, or other factors. For example, a company might create a group for all the employees in the finance department, giving them specific permissions to use financial data and systems.
+
 Q. 6 What is the Identity and Access Management (IAM) Policy?
-Answer: In Identity and Access Management (IAM), a policy is a set of rules that say what someone can do and what they can access in an organization's systems or apps.
+Answer: In IAM, a policy is a set of rules that say what someone can do and what they can access in an organization's systems.
 IAM policies control and manage who can access resources based on their needs and roles. These rules can be set at different levels, like for individual users, groups, or specific resources. They say what actions or permissions are allowed or not allowed for each person or group.
-IAM policies are usually written in a special language that the IAM system understands. They can include statements that say who gets access, what they can do, and any conditions or restrictions.
-By using IAM policies, organizations make sure that people can access the right things based on their jobs and responsibilities. IAM policies also help keep things secure and follow the rules by controlling and watching who can access sensitive info or systems.
+
 Q. 7 What is the Identity and Access Management (IAM) Role?
-Answer: In Identity and Access Management (IAM), a role is like a set of permissions that say what someone can do and what they can access in an organization's systems or apps.
+Answer: In IAM, a role is like a set of permissions that say what someone can do and what they can access in an organization's systems.
 IAM roles are used to give specific privileges and access levels to people based on their jobs or responsibilities. These roles can be customized to fit the organization's needs.
-When someone assumes a role, they automatically get the permissions that come with that role. This means they can do the things and access the resources defined in the role, without needing individual permissions.
-IAM roles can be assigned to individual users, groups, or even to services or apps. They provide a flexible and scalable way to control access in an organization, because roles can be easily added or removed as needed.
-By using IAM roles, organizations make sure that people have the right level of access to resources based on their roles and responsibilities. This helps keep things secure, makes access management easier, and ensures compliance with rules and regulations.
+When someone assumes a role, they automatically get the permissions that come with that role. This means they can do the things and access the resources defined in the role, without needing individual permissions. IAM roles can be assigned to individual users, groups, or even to services.
+
 Q. 8 Where do we attach Identity Based Policy?
 Answer: Identity-based policies are connected to individual users or groups in an Identity and Access Management (IAM) system. These policies determine the specific permissions and access rights given to the user or group.
 When creating or managing a user or group in an IAM system, there is usually an option to attach an identity-based policy. This can be done through the IAM console, command-line interface (CLI), or programmatically using an API.
@@ -189,8 +113,9 @@ However, it's important to remember that the user's ability to create policies i
 It's generally a good idea for organizations to regularly review and check the policies created by users. This ensures that the policies align with the organization's security and compliance requirements. By doing this, organizations can prevent users from having excessive permissions or accessing resources they shouldn't have access to.
 Q. 12 What is dominator policy?
 Answer: If user having less permissions but user adding in group & if group having full permission to that group (full access) in that case user having full access permission. That kind of policy called as Dominator policy
+
 Q. 13 What is ARN? What are the fields in ARN?
-Answer: ARN stands for Amazon Resource Name. It is a unique identifier assigned to resources in the Amazon Web Services (AWS) ecosystem. ARNs are used to identify and access various AWS resources such as EC2 instances, S3 buckets, IAM roles, Lambda functions, etc.
+Answer: ARN stands for Amazon Resource Name. It is a unique identifier assigned to resources in the Amazon Web Services (AWS) ecosystem.
 The fields in an ARN are as follows:
 1.	arn:aws - This is a fixed string indicating that the identifier is an ARN associated with AWS.
 2.	service - This field specifies the AWS service to which the resource belongs (e.g., s3 for S3 buckets, ec2 for EC2 instances).
@@ -198,7 +123,8 @@ The fields in an ARN are as follows:
 4.	account-id - This field contains the AWS account ID associated with the resource.
 5.	resource - It specifies the specific resource identifier within the service (e.g., bucket name for S3, instance ID for EC2).
 6.	qualifier - This field is optional and is used for resources that have different versions or aliases.
-An example of an ARN for an S3 bucket in the US East region with account ID 123456789012 would be: arn:aws:s3:us-east-1:123456789012:bucket-name
+An example of an ARN for an S3 bucket in the US East region with account ID 123456789012 would be: arn:aws:s3:us-east-1:123456789012:bucket-nam
+
 Q. 14 How many types of ARN Partition?
 Answer: ARN stands for Amazon Resource Name, which is used in AWS (Amazon Web Services) to identify resources uniquely. The ARN format helps in specifying a resource unambiguously across all of AWS, which aids in permission policies and user activities.
 An ARN is structured as:
@@ -209,6 +135,7 @@ aws: The standard partition for general AWS regions.
 aws-cn: The partition for China regions.
 aws-us-gov: The partition for AWS GovCloud (US) regions.
 These partitions help differentiate resources that reside in different geographic or regulatory boundaries.
+
 Q. 15 What are Tags?
 Answer: A tag is a label that you assign to a resource. A tag typically consists of a key-value pair, allowing you to categorize resources in various ways. For example, you might tag a resource with "Environment" as the key and "Production" as the value.
 Use Cases:
