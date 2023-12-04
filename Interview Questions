@@ -172,7 +172,7 @@ Avoid reserved words: Avoid using reserved words or keywords that are already de
 Be consistent: Consistency is key in naming conventions. Use the same naming conventions throughout the codebase to make it easier to read and maintain.
 Use plural for collections: When naming collections or arrays, use plural names to indicate that they contain multiple items. For example, "users" or "items".
 Use lowercase for constants: Constants should be named using all uppercase letters and underscores to separate words. For example, "MAX_VALUE" or "PI".
-Following these naming rules can help improve the readability, maintainability, and clarity of the codebase, making it easier for developers to understand and work with the code.
+
 
 Q.4 What is the major resource of S3 Bucket ?
 Answer: The major resource of an Amazon S3 (Simple Storage Service) bucket is the storage itself. S3 buckets are designed to store and retrieve any amount of data from anywhere on the web. They provide scalable, durable, and highly available object storage for various use cases.
@@ -360,58 +360,57 @@ Answer: Enabling a cloud trail in a production account serves several important 
 
 Q.3 Explain how we can create a trail in aws cloud trail?
 Answer: To create a trail in AWS CloudTrail, follow these steps:
-1. Sign in to the AWS Management Console and open the CloudTrail console at https://console.aws.amazon.com/cloudtrail/.
-2. In the CloudTrail console, choose Trails in the navigation pane.
-3. Choose Create trail.
-4. On the Create trail page, provide a name for the trail and select the AWS S3 bucket where you want to store the log files. You can also choose to apply an S3 bucket policy to the bucket to restrict access to the log files.
-5. Choose the option to enable the trail for all regions or select specific regions where you want to capture API activity.
-6. Optionally, you can choose to log data events for S3 buckets and define the data events that you want to capture.
-7. Choose Create.
-Once you have completed these steps, the trail will be created and will start capturing API activity and data events according to the settings you specified. You can then view and analyze the log files in the specified S3 bucket using the AWS Management Console, CLI, or API.
+        1. Sign in to the AWS Management Console and open the CloudTrail console at https://console.aws.amazon.com/cloudtrail/.
+        2. In the CloudTrail console, choose Trails in the navigation pane.
+        3. Choose Create trail.
+        4. On the Create trail page, provide a name for the trail and select the AWS S3 bucket where you want to store the log files. You can also choose to apply an S3 bucket policy to the bucket to restrict access to the log files.
+        5. Choose the option to enable the trail for all regions or select specific regions where you want to capture API activity.
+        6. Optionally, you can choose to log data events for S3 buckets and define the data events that you want to capture.
+        7. Choose Create.
+        Once you have completed these steps, the trail will be created and will start capturing API activity and data events according to the settings you specified. You can then view and analyze the log files in the specified S3 bucket using the AWS Management Console, CLI, or API.
 
 Q.4 How can we enable logging for S3 bucket using cloud trails?
 Answer: To enable logging for S3 bucket using CloudTrail, follow these steps:
-1. Open the CloudTrail console at https://console.aws.amazon.com/cloudtrail/.
-2. In the navigation pane, choose Trails.
-3. Select the trail for which you want to enable S3 bucket logging.
-4. Choose Edit.
-5. In the Data events section, choose Add S3 bucket.
-6. In the Add S3 bucket dialog box, select the S3 bucket for which you want to enable logging.
-7. Choose the data events that you want to capture for the selected S3 bucket. You can choose from the following options:
-- All object-level operations: Captures all object-level operations, including read, write, delete, and permission changes.
-- Read-only object-level operations: Captures only read operations on objects.
-- Write-only object-level operations: Captures only write operations on objects.
-- All object-level operations except read: Captures all object-level operations except read operations.
-8. Choose Save.
-Once you have completed these steps, CloudTrail will start capturing data events for the selected S3 bucket and storing the log files in the specified S3 bucket. You can then view and analyze the log files using the AWS Management Console, CLI, or API.
+        1. Open the CloudTrail console at https://console.aws.amazon.com/cloudtrail/.
+        2. In the navigation pane, choose Trails.
+        3. Select the trail for which you want to enable S3 bucket logging.
+        4. Choose Edit.
+        5. In the Data events section, choose Add S3 bucket.
+        6. In the Add S3 bucket dialog box, select the S3 bucket for which you want to enable logging.
+        7. Choose the data events that you want to capture for the selected S3 bucket. You can choose from the following options:
+        - All object-level operations: Captures all object-level operations, including read, write, delete, and permission changes.
+        - Read-only object-level operations: Captures only read operations on objects.
+        - Write-only object-level operations: Captures only write operations on objects.
+        - All object-level operations except read: Captures all object-level operations except read operations.
+        8. Choose Save.
+        Once you have completed these steps, CloudTrail will start capturing data events for the selected S3 bucket and storing the log files in the specified S3 bucket. You can then view and analyze the log files using the AWS Management Console, CLI, or API.
 
 
 Q.5 How do you get the list of all created trailers in your production account?
 Answer: To get the list of all created trails in your AWS production account, you can use the AWS Command Line Interface (CLI) or the AWS Management Console. Here's how you can do it using both methods:
-Using AWS CLI:
-1. Open your terminal or command prompt.
-2. Run the following command to list all the trails in your AWS account:
-aws cloudtrail describe-trails
-This command will return a JSON output containing information about all the trails created in your account.
-Using AWS Management Console:
-1. Sign in to the AWS Management Console and open the CloudTrail console at https://console.aws.amazon.com/cloudtrail/.
-2. In the CloudTrail console, choose Trails in the navigation pane.
-3. You will see a list of all the trails created in your account, along with their details such as trail name, S3 bucket name, and status.
-By using either of these methods, you can easily get the list of all created trails in your AWS production account.
+        Using AWS CLI:
+        1. Open your terminal or command prompt.
+        2. Run the following command to list all the trails in your AWS account: aws cloudtrail describe-trails
+        This command will return a JSON output containing information about all the trails created in your account.
+        Using AWS Management Console:
+        1. Sign in to the AWS Management Console and open the CloudTrail console at https://console.aws.amazon.com/cloudtrail/.
+        2. In the CloudTrail console, choose Trails in the navigation pane.
+        3. You will see a list of all the trails created in your account, along with their details such as trail name, S3 bucket name, and status.
+        By using either of these methods, you can easily get the list of all created trails in your AWS production account.
 
 Q.6 Can we create a trail for a multi region, if yes then how can we configure it?
 Answer: Yes, we can create a trail for a multi-region in AWS CloudTrail. To configure a multi-region trail, follow these steps:
-1. Open the CloudTrail console at https://console.aws.amazon.com/cloudtrail/.
-2. Choose Trails in the navigation pane.
-3. Choose Create trail.
-4. Provide a name for the trail and select the S3 bucket where you want to store the log files.
-5. In the Management events section, choose the option to enable the trail for all regions.
-6. In the Data events section, choose Add S3 bucket.
-7. Select the S3 bucket for which you want to enable logging.
-8. Choose the data events that you want to capture for the selected S3 bucket.
-9. Choose Create.
-Once you have completed these steps, the trail will be created and will start capturing API activity and data events in all regions. You can then view and analyze the log files in the specified S3 bucket using the AWS Management Console, CLI, or API.
-Note: Multi-region trails incur additional charges for data transfer and storage. You should carefully consider the cost implications before configuring a multi-region trail.
+        1. Open the CloudTrail console at https://console.aws.amazon.com/cloudtrail/.
+        2. Choose Trails in the navigation pane.
+        3. Choose Create trail.
+        4. Provide a name for the trail and select the S3 bucket where you want to store the log files.
+        5. In the Management events section, choose the option to enable the trail for all regions.
+        6. In the Data events section, choose Add S3 bucket.
+        7. Select the S3 bucket for which you want to enable logging.
+        8. Choose the data events that you want to capture for the selected S3 bucket.
+        9. Choose Create.
+        Once you have completed these steps, the trail will be created and will start capturing API activity and data events in all regions. You can then view and analyze the log files in the specified S3 bucket using the AWS Management Console, CLI, or API.
+        Note: Multi-region trails incur additional charges for data transfer and storage. You should carefully consider the cost implications before configuring a multi-region trail.
 
 Q.7 How can we disable the logging for certain events, services in cloud trail, If yes so explain how?
 Answer: Yes, you can disable logging for certain events or services in AWS CloudTrail by configuring event selectors for your trail. Event selectors allow you to specify which events you want to log and which ones you want to exclude.
