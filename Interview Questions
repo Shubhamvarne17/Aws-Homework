@@ -82,13 +82,11 @@ Answer: A user is someone who interacts with a computer system or network. In IA
         such as a username and password. IAM users are created and managed within an IAM system.
 
 Q.5 What is the Identity and Access Management (IAM) Group?
-Answer: In IAM, a group is a bunch of people who have similar attributes like roles, permissions, or access levels. Groups are used to make it easier to control and manage access to resources in an 
-        organization's IAM system. By putting people into groups, administrators can easily control who can access certain things based on their job, department, or other factors. For example, a company might 
+Answer: In IAM, a group is a bunch of people who have similar attributes like roles, permissions, or access levels. Groups are used to make it easier to control and manage access to resources in an organization's IAM system. By putting people into groups, administrators can easily control who can access certain things based on their job, department, or other factors. For example, a company might 
         create a group for all the employees in the finance department, giving them specific permissions to use financial data and systems.
 
 Q.6 What is the Identity and Access Management (IAM) Policy?
-Answer: Policy is a set of rules that say what someone can do and what they can access in an organization's systems.
-        IAM policies control and manage who can access resources based on their needs and roles. These rules can be set at different levels, like for individual users, groups, or specific resources. They say 
+Answer: Policy is a set of rules that say what someone can do and what they can access in an organization's systems.IAM policies control and manage who can access resources based on their needs and roles. These rules can be set at different levels, like for individual users, groups, or specific resources. They say 
         what actions or permissions are allowed or not allowed for each person or group.
 
 Q.7 What is the Identity and Access Management (IAM) Role?
@@ -538,15 +536,8 @@ ANS: AWS SNS (Simple Notification Service) can be configured to work with severa
 By configuring AWS SNS with these services, you can leverage its capabilities to send notifications, trigger actions, and facilitate communication across different AWS services and external endpoints.
 
 Q.8 What is 10DLC in AWS? 
-ANS: 10DLC (10 Digit Long Code) is a messaging solution in AWS that allows businesses to send Application-to-Person (A2P) messages using a standard 10-digit long code phone number. This solution is designed to improve the deliverability and reliability of A2P messaging, particularly for high-volume use cases such as marketing, notifications, and customer engagement.
-Here are some key points about 10DLC in AWS:
-Compliance and Trust: 10DLC helps businesses comply with carrier regulations and industry standards for A2P messaging, promoting trust and reliability in message delivery.
-Improved Deliverability: By using 10DLC, businesses can improve the deliverability of their A2P messages, reducing the likelihood of messages being marked as spam or blocked by carriers.
-Consistent Sender Identity: 10DLC allows businesses to establish a consistent sender identity associated with their long code phone number, helping to build trust with recipients and improve message engagement.
-Use Cases: 10DLC is suitable for a wide range of A2P messaging use cases, including marketing campaigns, customer notifications, two-factor authentication (2FA), appointment reminders, and more.
-Registration and Campaign Management: To use 10DLC, businesses need to register their long code phone numbers and campaigns with the carriers and adhere to their guidelines for A2P messaging. AWS provides tools and resources to facilitate this registration and management process.
-Cost-Efficiency: 10DLC offers a cost-effective solution for A2P messaging compared to traditional short codes, making it accessible to businesses of varying sizes.
-By leveraging 10DLC in AWS, businesses can enhance the effectiveness and reliability of their A2P messaging strategies while maintaining compliance with carrier requirements and industry best practices. This can ultimately lead to better customer engagement and improved communication outcomes.
+ANS: 10DLC (10 Digit Long Code) is a messaging solution in AWS that allows businesses to send Application-to-Person (A2P) messages using a standard 10-digit long code phone number. 
+     This solution is designed to improve the deliverability and reliability of A2P messaging, particularly for high-volume use cases such as marketing, notifications, and customer engagement.
 
 Q.9 What are FIFO topics on SNS?
 ANS:
