@@ -546,25 +546,213 @@ Ans: An EC2 Image is a template that contains all the information necessary to l
 Q.16 What is NIC & it’s types ?
 Ans: Network interface card (NIC) that is attached to an EC2 in a Virtual Private Cloud(VPC). They are used to enable network connectivity for your instances on the network. 
 
-Q17 What is elastic IP ? & WHY were we used ?
+Q.17 What is elastic IP ? & WHY were we used ?
+Ans: It is reserved public IP address assign to any EC2 instances. When we want to stable public IP that time use Elastic IP
+
+Q.18 What is the snapshot of why we use it ?
+Ans: A storage snapshot can be used for disaster recovery when information is lost due to human error or when any event that damages or deletes data occurs. 
+
+Q.19 How can we save money in snapshot costing, if an automated snapshot has been created ?
+Ans: elect right EBS volume , Delete old Snapshots
+
+Q.20 What is the lifecycle manager in snapshot ?
+Ans: provides a simple and automated way for you to manage your EBS snapshot backups. 
+
+Q.21 How does the Amazon lifecycle manager work ?
+Ans: Using this service you will be able to automate the creation, retention and deletion of your EBS snapshots. Some benefits of using this include: Protect valuable data by enforcing a regular backup schedule.
+
+Q.22 What is the meaning of server hibernating mode ?
+Ans: A power-off mode that preserves the last state of the computer. Turning the computer on after hibernating eliminates booting the operating system and reloading all the applications and data.
+
+Q.23 Difference between Security Group & NACL ?
+Ans: Scope of application: NACLs apply to all instances in a subnet, while Security Groups apply to individual instance
+
+Q.24 What are NACL & Its types ?
+Ans: A NACL is a security layer for your VPC, that acts as a firewall for controlling traffic in and out of one or more subnets.
+
+Q.25 How many IP Addresses can we attach to the instances ?
+Ans: 8000 per VPC
+
+Q.26 How many types of volume states do we have ?
 Ans: 
 
 
 
 
-What is the snapshot of why we use it ?
-How can we save money in snapshot costing, if an automated snapshot has been created ?
-What is the lifecycle manager in snapshot ?
-How does the Amazon lifecycle manager work ?
+
+Q.27 What is a key pair, and its types ?
 
 
 
 
+Q.28 What is load balancer and its types ?
+Ans: Load balancers increase the fault tolerance of your systems by automatically detecting server problems and redirecting client traffic to available servers.
+     Types of load balancer is Classic , Application & Network load Balancer
+
+Q.29 How does the load balancer work in the backend? Can you explain it ?
+Ans: Load balancing directs and controls internet traffic between the application servers and their visitors or clients. As a result, it improves an application’s availability,
+     scalability, security, and performance.
+
+
+Q.30 Features of Load Balancers ?
+Ans: Load balancers improve application performance by increasing response time and reducing network latency. They perform several critical tasks such as the following:
+     Distribute the load evenly between servers to improve application performance. Redirect client requests to a geographically closer server to reduce latency.
+
+Q.31 What is ASG ? & Its types ?
+Ans:  Autoscaling is a cloud computing feature that enables organizations to scale cloud services such as server capacities or virtual machines up or down automatically, 
+      based on defined situations such as traffic ir utilization levels.
+
+
+Q.32 What is a Health Check ?
+Ans: Health checks are a way of asking a service on a particular server whether or not it is capable of performing work successfully. Load balancers ask each server 
+     this question periodically to determine which servers it is safe to direct traffic to.
+
+
+Q.33 What is the threshold ?
+Ans: Its describes a load-based auto scaling upscaling or downscaling threshold configuration, which specifies when AWS OpsWorks Stacks starts or stops load-based instances.
+
+Q.34 What is the group of LB ?
+Ans: 
+
+Q.35 Why do we prefer ALB over ALB ?
+Ans: 
+
+
+Q.36 Difference between Web server & Application server ?
 
 
 
 
-What is the meaning of server hibernating mode ?
+Q.37 What is the target group ?
+Ans: Each target group is used to route requests to one or more registered targets. When you create each listener rule, you specify a target group and conditions. 
+     When a rule condition is met, traffic is forwarded to the corresponding target group.
 
+
+Q.38 What is the desired capacity in ASG ?
+
+
+
+How many types of the Scaling option ?
+Scaling plans ?
+Types Auto scaling
+Difference between vertical scaling and horizontal scaling ?
+Difference between AMI & Snapshot ?
+What is difference between EBS/EFS/S3
+
+
+
+VPC 
+1.	What is VPC ?
+Ans: VPC stands for Virtual Private Cloud. It is a virtual network dedicated to a specific user within a public cloud environment. VPC allows users to create isolated networks
+     within a shared infrastructure, providing greater control over security, networking, and resources. 
+
+2.	What are the Subnets when working with VPC ?
+Ans: Subnets are subdivisions of the IP address range assigned to the VPC. Subnets allow you to logically divide your VPC into smaller networks to better organize and manage your resources. 
+Each subnet is associated with a specific availability zone within the region where the VPC is deployed.
+
+3.	What is NAT Device ?
+Ans:  NAT (Network Address Translation) device is a network device that allows multiple devices within a private network to share a single public IP address for accessing the internet. 
+      NAT devices translate private IP addresses used within the local network into a single public IP address that is used for communication with external networks such as the internet.
+
+
+4.	What is the difference between stateful & stateless filtering ?
+Ans: Stateful and stateless filtering are two different methods of filtering network traffic based on the state of the connections. The main difference between the two lies in how they handle and 
+     track the state of network connections.
+        Stateful Filtering:
+                           Stateful filtering, also known as stateful inspection, keeps track of the state of active network connections by monitoring the state of packets and sessions.
+        It maintains a state table that keeps track of the connection state, such as the source and destination IP addresses, ports, sequence numbers, and connection status (established, closed, etc.).
+        Stateful firewalls use this information to make decisions on whether to allow or block traffic based on the context of the connection, rather than just individual packets.
+        Stateful filtering provides better security and control over network traffic by understanding the context and history of connections.
+        Stateless Filtering:
+                            Stateless filtering, on the other hand, filters network traffic based on individual packets without considering the state of the connections.
+         It evaluates each packet independently based on predefined rules, such as source and destination IP addresses, ports, and protocols.
+         Stateless firewalls do not maintain any connection state information and do not track the context of connections.
+          While stateless filtering is simpler and more efficient, it may not provide the same level of security as stateful filtering because it cannot detect certain types of attacks that involve manipulating the state of connections.
+         In summary, stateful filtering is more advanced and secure as it tracks the state of connections, while stateless filtering is simpler and faster but may be less effective in certain security scenarios.
+
+5.	What are the advantages of using default VPC ?
+Answer: Advantages of default VPC is 
+         1. Ease of Use
+         2. Internet Gateway
+         3. Subnets and Route Tables.
+         4. Scalability
+         5. Compatibility
+
+6.	What is the internet gateway in VPC ? 
+Ans: An Internet Gateway (IGW) is a key component of a Virtual Private Cloud (VPC) . An Internet Gateway serves as a connection point between a VPC and the internet.
+
+7.	What is Network ACL in VPC ?
+Ans: A Network Access Control List (ACL) is a security feature in a VPC that acts as a firewall for controlling traffic at the subnet level. 
+     Network ACLs are stateless, meaning they evaluate each network packet independently based on rules defined for inbound and outbound traffic.
+   
+8.	What is the Security Group in VPC ?
+Ans: A Security Group is another essential security feature in a VPC that acts as a virtual firewall for controlling inbound and outbound traffic to and from instances within the VPC.
+
+9.	What is an Elastic IP Address in VPC, and why do we need to use, realtime example ?
+Ans: An Elastic IP address is a static IPv4 address designed for dynamic cloud computing. In the context of a Virtual Private Cloud (VPC), an Elastic IP address is a public IP address that 
+     can be dynamically assigned to an instance within the VPC.
+     
+10.	Can we attach one Production Elastic IP to the new Prod server ?
+Ans: Yes, you can attach an Elastic IP address that is currently associated with a production server to a new production server within the same Virtual Private Cloud (VPC).
+
+11.	How does ELB Affect a VPC ?
+Ans: An Elastic Load Balancer (ELB) is a managed service provided by AWS that distributes incoming application or network traffic across multiple targets, such as EC2 instances, within a Virtual Private Cloud (VPC). 
+     ELB plays a significant role in enhancing the availability, scalability, and security of applications hosted within a VPC. Here are some ways in which ELB affects a VPC:
+     
+12.	What are the limitations of VPC’s, Gateway and subnets ?
+Ans: VPCsi n AWS provide a secure and isolated virtual network environment for your resources. While VPCs offer a high degree of flexibility and control over networking configurations, 
+     there are some limitations and considerations to keep in mind when working with VPCs, gateways, and subnets. Here are some common limitations:
+     VPC Limitations:
+     1. VPC Size
+     2. CIDR Block Size
+     3. Peering Connections
+     4. VPC Endpoints
+     
+     Gateway Limitations:
+     1. Internet Gateway  
+     2. Virtual Private Gateway 
+     
+     Subnet Limitations:
+      1. Subnet Size
+      2. Availability Zone
+      3. Route Tables
+
+13.	What is a Public IP Address and why do we use it ?
+Answer: A Public IP Address is a unique numerical label assigned to a device or network interface that is directly connected to the internet. Public IP addresses are globally 
+        unique and can be used to identify and communicate with devices over the internet. 
+            Why do we use Public IP Addresses :-
+                Public IP Addresses are essential for enabling internet communication, hosting services, remote access, and identifying devices on the internet. 
+            They play a crucial role in facilitating connectivity and data exchange between devices across the global network infrastructure.
+
+Q.14.	Explain Bastion Host Concept ?
+Ans: A Bastion Host, also known as a Jump Box or Jump Server, is a special-purpose server that acts as a secure gateway for accessing and managing other servers or resources in a private network. 
+        The Bastion Host serves as a single point of entry for administrators to securely connect to and manage systems within a private network, particularly in cloud environments or complex network architectures.
+        Here are some key aspects of the Bastion Host concept:
+        Purpose of a Bastion Host:
+        1.Secure Access
+        2.Controlled Access
+        3.Monitoring and Logging
+ a Bastion Host serves as a secure gateway for administrators to access and manage servers in a private network. By centralizing access through a single controlled entry point, organizations can enhance security,    
+ monitor user activity, and simplify network management in complex IT environments.
+
+Q.15.	When do we need to create a new customised VPC ?
+Ans: Creating a new customized Virtual Private Cloud (VPC) is necessary in various scenarios where the default VPC provided by cloud service providers may not meet specific requirements or configurations.
+      Creating a new customized VPC is recommended when you have specific networking, security, compliance, performance, or organizational requirements that cannot be fully addressed by the default VPC 
+     settings provided by cloud service providers. Custom VPCs offer greater flexibility, control, and customization options to design a network infrastructure that aligns with your unique business needs
+     and technical specifications.
+
+16.	What is Peering ? Why do we need to peer at two VPC’s ?
+Ans: VPC peering is a networking connection between two Virtual Private Clouds (VPCs) in the same or different regions. Peering allows the VPCs to communicate with each other as 
+     if they are part of the same network, enabling seamless connectivity and data transfer between the resources in the peered VPCs. 
+     Peering two VPCs provides a secure, efficient, and cost-effective way to establish direct communication and collaboration between resources in separate VPCs within a cloud environment. 
+
+
+17.	What is VPN, Where do we use VPN Tunnel ?
+Answer: A Virtual Private Network (VPN) is a technology that creates a secure and encrypted connection over a public network, such as the internet, 
+        to allow users to access private networks, resources, and services remotely. VPNs are commonly used to establish a secure communication channel between 
+        a user's device and a private network, enabling secure data transmission and access to restricted resources. 
+        VPNs and VPN tunnels are essential tools for establishing secure, encrypted connections over public networks, enabling secure remote access, site-to-site connectivity, data encryption, 
+        bypassing restrictions, enhancing security and privacy, and protecting data on public Wi-Fi networks. VPN technology plays a crucial role in ensuring secure and private communication, 
+        enabling organizations and individuals to access resources and services securely from anywhere in the world.
 
 
