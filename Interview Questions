@@ -405,17 +405,9 @@ Answer: We use SNS service for -
         6. Cross-Platform Messaging
 
 Q.3 What is an Amazon SNS function, and how we can configure it.
-Answer: Amazon SNS (Simple Notification Service) is a fully managed messaging service provided by Amazon Web Services (AWS). It enables you to send messages or notifications to a variety of endpoints, including email, SMS (text messages), mobile push notifications, and HTTP/HTTPS endpoints. SNS can be configured and used through the AWS Management Console, AWS Command Line Interface (CLI), or AWS SDKs.
-       Here's an overview of how you can configure and use Amazon SNS:
-       1. Creating a Topic: The first step in using SNS is to create a topic. A topic is a communication channel to which you can publish messages. You can create a topic using the AWS Management Console or AWS CLI. When creating a topic, you will provide a name and an optional display name.
-       2. Subscribing Endpoints to the Topic: Once you have created a topic, you can subscribe endpoints to the topic to receive messages. Endpoints can include email addresses, phone numbers for SMS messages, mobile device tokens for push notifications, or HTTP/HTTPS endpoints. You can subscribe endpoints using the AWS Management Console, AWS CLI, or programmatically through the AWS SDKs.
-       3. Publishing Messages to the Topic: After creating a topic and subscribing endpoints to it, you can publish messages to the topic. Messages can be published using the AWS Management Console, AWS CLI, or programmatically through the AWS SDKs. When publishing a message, you specify the topic to which the message should be sent and the content of the message.
-       4. Configuring Message Attributes: SNS allows you to set message attributes such as message structure (JSON, raw text, etc.), message deduplication ID, message group ID, and more. These attributes can be configured when publishing messages to the topic.
-5. Using SNS with AWS Services: SNS can be integrated with other AWS services. For example, you can configure an Amazon S3 bucket to send event notifications to an SNS topic, or you can use SNS to trigger AWS Lambda functions in response to messages.
-6. Monitoring and Logging: SNS provides monitoring and logging capabilities, allowing you to track message deliveries, view message delivery status, and monitor the usage of SNS topics.
-When configuring Amazon SNS, it's important to consider security best practices, such as setting appropriate access controls and permissions for topics and subscriptions, and enabling encryption for message delivery.
-Overall, Amazon SNS is a powerful and versatile service for sending notifications and messages, and it can be configured and used through various AWS management interfaces and APIs to meet the messaging needs of your applications and systems.
-
+Answer: Amazon SNS (Simple Notification Service) is a fully managed messaging service provided by Amazon Web Services (AWS). It enables you to send messages or notifications to a variety of endpoints,
+        including email, SMS (text messages), mobile push notifications, and HTTP/HTTPS endpoints. SNS can be configured and used through the AWS Management Console, AWS Command Line Interface (CLI), or AWS SDKs.
+       
 Q.4 Difference between Amazon SNS & Amazon SQS.
 ANS: 
      Amazon SNS :                                                                 
@@ -460,10 +452,119 @@ Answer: 10DLC (10 Digit Long Code) is a messaging solution in AWS that allows bu
         This solution is designed to improve the deliverability and reliability of A2P messaging, particularly for high-volume use cases such as marketing, notifications, and customer engagement.
 
 Q.9 What are FIFO topics on SNS?
-ANS:
+ANS:By using FIFO topics, we can do message ordering.
 
 Q.10 What is SNS Mobile Push?
-ANS:
+ANS: with amazon sns, you have the ability to send push notification messages to your mobile device.
+
 Q.11 On which delivery method do we use and configure the subscription?
 ANS:
+
+
+EC2 Service - 
+
+Q.1 What is EC2, Why do we need EC2 service in cloud computing ?
+ANS: It is a Elastic Cloud Computing. EC2 reduces hardware costs so you can develop and deploy applications faster. You can use Amazon EC2 to launch as many or as few virtual servers as you need, 
+     configure security and networking, and manage storage.
+
+Q.2 Features of Amazon EC2 ?
+ANS: EC2 provides on-demand, scalable computing capacity in the Amazon Web Services.
+
+Q.3 What is Hypervisor ? and its types ?
+ANS: A hypervisor is a software that you can use to run multiple virtual machines on a single physical machine.
+     Types of Hipervisor is - 1. Type 1 or bare metal hpervisor
+                              2. Type 2 or hosted hypervisor
+    
+Q.4 Where we use hypervisor
+Ans: Hypervisors support the creation and management of virtual machines. Hypervisors make virtualization possible by translating requests between the physical and virtual resources.
+
+Q.5 Steps to create an EC2 instance.
+Ans: Step 1: Sign in to the AWS Management Console. EC2 dashboard. ...
+     Step 2: Choose a name of your instance. ...
+     Step 3: Choose an Amazon Machine Image (AMI) ...
+     Step 4: Choose an Instance Type. ...
+     Step 5: Create a key pair. ...
+     Step 6: Configure Security Group. ...
+     Step 7: Add Storage. ...
+     Step 8: Review and Launch.
+
+Q.6 EC2 Instance state ?
+Ans: Discribe current state of instances.
+
+Q.7 How many types of EC2 Instance-State codes ?
+Ans: The valid values for instance-state-code will all be in the range of the low byte and they are:
+     0 : pending
+     16 : running
+     32 : shutting-down
+     48 : terminated
+     64 : stopping
+     80 : stopped
+
+Q.8 AWS Amazon EC2 Instance types ?
+Ans: General Purpose: The most popular; used for web servers, development environments, etc.
+     Compute Optimized: Good for compute-intensive applications such as some scientific modeling or high-performance web servers.
+     Memory Optimized: Used for anything that needs memory-intensive applications, such as real-time big data analytics, or running Hadoop or Spark.
+     Accelerated Computing: Include additional hardware (GPUs, FPGAs) to provide massive amounts of parallel processing for tasks such as graphics processing.
+     Storage Optimized: Ideal for tasks that require huge amounts of storage, specifically with sequential read-writes, such as log processing.
+
+Q.9 How many types of status checks happen in aws ?
+Ans: 
+
+
+
+
+
+Q.10 When we see the global view option in ec2 service ?
+Ans: Amazon EC2 Global View enables you to view some of your Amazon EC2 and Amazon VPC resources across a single AWS Region, or across multiple Regions in a single console.
+
+
+Q.11 When we logged into the cloud account by default why do we always jump into the north virginia region, why it’s most popular ?
+Ans: 
+
+
+
+
+
+Q.12 What are EBS Volumes and its types ?
+Ans: Elastic Block Storage (EBS) Volume hosts virtual data in segments. It's like a storage disk with the ability to contain various sizes of data.
+     Types of EBS volume is SSD-backed EBS volume types and HDD-backed EBS volume types.
+
+Q.13 Purpose of Using EBS volumes ?
+Ans: EBS volumes provide additional storage for EC2 instances, similar to a hard drive. 
+
+Q.14 How many types of purchasing options do we have in aws ec2 ?
+Ans: AWS provides four main options to purchase Amazon EC2 Instances. 
+     1. On-Demand Instances
+     2. Reserved Instances
+     3. Spot Instances
+     4. Savings Plans
+
+Q.15 Difference between AWS AMI Image & AWS Template ?
+Ans: An EC2 Image is a template that contains all the information necessary to launch an EC2 instance, including the instance type, security groups, and block device mapping. 
+     Images are used to launch new instances with the same configuration as the original instance. 
+
+Q.16 What is NIC & it’s types ?
+Ans: Network interface card (NIC) that is attached to an EC2 in a Virtual Private Cloud(VPC). They are used to enable network connectivity for your instances on the network. 
+
+Q17 What is elastic IP ? & WHY were we used ?
+Ans: 
+
+
+
+
+What is the snapshot of why we use it ?
+How can we save money in snapshot costing, if an automated snapshot has been created ?
+What is the lifecycle manager in snapshot ?
+How does the Amazon lifecycle manager work ?
+
+
+
+
+
+
+
+
+What is the meaning of server hibernating mode ?
+
+
 
