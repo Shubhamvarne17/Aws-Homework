@@ -697,7 +697,7 @@ Ans: Yes, you can attach an Elastic IP address that is currently associated with
 
 11.	How does ELB Affect a VPC ?
 Ans: An Elastic Load Balancer (ELB) is a managed service provided by AWS that distributes incoming application or network traffic across multiple targets, such as EC2 instances, within a Virtual Private Cloud (VPC). 
-     ELB plays a significant role in enhancing the availability, scalability, and security of applications hosted within a VPC. Here are some ways in which ELB affects a VPC:
+     ELB plays a significant role in enhancing the availability, scalability, and security of applications hosted within a VPC. 
      
 12.	What are the limitations of VPC’s, Gateway and subnets ?
 Ans: VPCsi n AWS provide a secure and isolated virtual network environment for your resources. While VPCs offer a high degree of flexibility and control over networking configurations, 
