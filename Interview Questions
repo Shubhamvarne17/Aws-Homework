@@ -209,7 +209,8 @@ Answer: Amazon S3 offers several storage classes, each designed to meet differen
         7.S3 Outposts
 
 Q.11 What is ACL ?
-Answer: ACL stands for Access Control List, which is a set of permissions that define who can access an Amazon S3 bucket or object and what actions they can perform on it. ACLs are used to manage access to S3 resources at a granular level, allowing you to control access to individual objects or entire buckets.
+Answer: ACL stands for Access Control List, which is a set of permissions that define who can access an Amazon S3 bucket or object and what actions they can perform on it. 
+        ACLs are used to manage access to S3 resources at a granular level, allowing you to control access to individual objects or entire buckets.
 
 Q.12 Why do we need ACL ?
 Answer: ACLs (Access Control Lists) are necessary for several reasons:
